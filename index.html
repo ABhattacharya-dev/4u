@@ -773,7 +773,7 @@
 
     <div class="final-section">
         <div class="final-sticky">
-            <div class="final-content-wrapper">
+            <div class="final-content-wrapper" style="height: 100%;">
                 
                 <h2 class="final-text" id="final-txt-1">Even now, years later, I sometimes catch myself nervously flipping through these old pages, hoping for a miracle. The guilt of losing her first words to me still sits heavy in my chest.</h2>
                 
@@ -788,7 +788,7 @@
                 </div>
 
                 <h2 class="final-text btw-text" id="final-txt-3">ooh BTW</h2>
-                <div id="balloon-canvas-container" ></div>
+                <div id="balloon-canvas-container" style="height: 100%;" ></div>
             </div>
         </div>
     </div>
@@ -875,8 +875,8 @@
             
             // Subtle float animation
             gsap.to(object.rotation, {
-                y: Math.PI * 0.2,
-                duration: 5,
+                y: 0.1,
+                duration: 3,
                 repeat: -1,
                 yoyo: true,
                 ease: "sine.inOut"
